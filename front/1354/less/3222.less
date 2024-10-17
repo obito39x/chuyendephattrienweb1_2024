@@ -1,0 +1,31 @@
+@primary-color: #000;
+@secondary-color: #6c757d;
+@heading-font-size: 1.25rem;
+@content-font-size: 1rem;
+@border-color: #e0e0e0;
+
+.accordion-item {
+    border: 1px solid @border-color;
+    margin-bottom: 5px;
+
+    .accordion-header {
+        button {
+            color: @primary-color;
+            font-size: @heading-font-size;
+            font-weight: bold;
+            padding: 1rem;
+            background-color: transparent;
+            border: none;
+            text-align: left;
+            width: 100%;
+            position: relative;
+        }
+    }
+
+    .accordion-body {
+        padding: 1rem;
+        font-size: @content-font-size;
+        color: @secondary-color;
+        border-top: 1px solid @border-color;
+    }
+}

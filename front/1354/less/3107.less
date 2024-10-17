@@ -1,0 +1,60 @@
+@border-color: #e0e0e0;
+@padding: 20px;
+@text-warning-color: #ffc107;  // Bootstrap warning color
+@text-muted-color: #6c757d;     // Bootstrap muted text color
+
+.product-container {
+    border: 1px solid @border-color;
+    padding: @padding;
+}
+
+.product-info {
+    border-left: 1px solid @border-color;
+    padding-left: @padding;
+}
+
+.product-cover {
+    border: 1px solid @border-color;
+}
+
+.color-option {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.product-thumbnails {
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        border: 1px solid @border-color;
+    }
+}
+
+.section-border {
+    border-top: 1px solid @border-color;
+    padding-top: @padding;
+    margin-top: @padding;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+}
+
+.social-share {
+    a {
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
